@@ -1,0 +1,31 @@
+.item-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 15px 10px;
+    border: #ccc 1px solid;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.item-title-container {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.item-name {
+    font-size: 18px;
+}
+
+.item-description {
+    color: #ccc;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.item-price {
+    font-size: 16px;
+    font-weight: bold;
+}
