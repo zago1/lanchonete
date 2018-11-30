@@ -1,0 +1,67 @@
+.order-item-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 15px 10px;
+    border: #CCCCCC 1px solid;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.order-item-name {
+    font-size: 18px;
+}
+
+.order-item-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#order-qtty-item-container {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.ordem-item-info-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.order-qtty-item-container > input {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background: #FFFFFF;
+    border: #CCCCCC 1px solid;
+    color: #CCCCCC;
+    text-align: center;
+}
+
+.order-qtty-item-container > button {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border: transparent;
+    border-radius: 10px;
+    outline: none;
+    color: #F1F1F1;
+}
+
+.order-qtty-item-container #add {
+    background-color: #65EA23;
+}
+
+.order-qtty-item-container #add:active {
+    background: #5BBC2B;
+}
+
+.order-qtty-item-container #remove {
+    background-color: #D62A2A;
+}
+
+.order-qtty-item-container #remove:active {
+    background: #932626;
+}

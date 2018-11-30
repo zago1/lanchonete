@@ -4,12 +4,12 @@ import Item from './Item';
 
 import './styles.css';
 
-const List = ({ data, title, onItemSelected }) => {
+const SnacksList = ({ data, title, onItemSelected }) => {
 
     const list = data || [];
 
     return (
-        <div className="list-container">
+        <div className="snacks-list-container">
             <h2 className="list-title">{title}</h2>
             {list.map(item => (
                 <Item
@@ -22,4 +22,4 @@ const List = ({ data, title, onItemSelected }) => {
     )
 }
 
-export default List;
+export default SnacksList;

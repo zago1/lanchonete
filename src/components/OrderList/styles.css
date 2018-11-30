@@ -1,0 +1,58 @@
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.order-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+}
+
+.order-item-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 65%;
+    padding: 15px 10px;
+    border: #ccc 1px solid;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.order-item-title-container {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.order-item-name {
+    font-size: 18px;
+}
+
+.order-item-description {
+    color: #ccc;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.order-item-cancel-button {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 20px;
+    outline: none;
+    color: #A1A1A1;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.order-item-cancel-button:active {
+    background-color: #F1F1F1;
+}

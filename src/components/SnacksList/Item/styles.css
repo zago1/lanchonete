@@ -29,3 +29,16 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+input[type=checkbox] {
+    display: none;
+}
+
+.checker {
+    background-image: url('../../../images/plus-icon.png');
+    background-position: left center;
+    background-size: auto 100%;
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+  }
